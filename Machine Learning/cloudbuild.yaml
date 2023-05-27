@@ -5,6 +5,7 @@ steps:
       - '-t'
       - 'gcr.io/nutricipe-coba/flask-app'
       - '.'
+      - '--network=cloudbuild'
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'push'
