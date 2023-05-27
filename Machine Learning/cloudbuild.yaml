@@ -19,4 +19,4 @@ steps:
       - '--platform'
       - 'managed'
       - '--region'
-      - 'asia-southeast2'
+      - 'asia-east1'
